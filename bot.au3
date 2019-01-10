@@ -20,7 +20,7 @@ Func start()
    Global $speedDell = 5
    Global $beforCut = 5;
    Global $all = ""
-   Global $between = 6;
+   Global $between = 30;
    $sec = 420;
    $sum = 0;
 
@@ -51,7 +51,7 @@ Func start()
 		EndIf
 
 	   Else
-		 $sum +=14
+		 $sum +=5
 		If $sum >= 60 Then
 			$hour =  Floor($sum / 3600)
 			$min =  Floor(Mod($sum, 3600)/60)
